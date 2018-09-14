@@ -14,7 +14,7 @@ export default class ExampleComponent extends Component {
   render() {
     const { articles } = this.state;
 
-    console.log(articles);
+    // console.log(articles);
     return (
       <ul>
         {articles.map(obj => (
