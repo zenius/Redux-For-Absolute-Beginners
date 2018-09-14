@@ -3,7 +3,7 @@ import { addArticle } from "../actions/index";
 
 const initialState = { articles: [] };
 
-const rootReducer = (action = addArticle, state = initialState) => {
+const rootReducer = (state = initialState, action = addArticle) => {
   switch (action.type) {
     case ADD_ARTICLE:
       // state.articles.push(action.payload);  // makes the state mutable , do not use it

@@ -1,9 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import ExampleComponent from "./ExampleComponent";
-import index from "./js/index";
+import { Provider } from "react-redux";
+import store from "./js/store/index";
+import App from "./js/components/App";
 
-ReactDOM.render(<ExampleComponent />, document.getElementById("app"));
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("app")
+);
 
 if (module.hot) {
   module.hot.accept();
