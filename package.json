@@ -38,8 +38,11 @@
   },
   "dependencies": {
     "atob": "^2.1.0",
+    "clean-css": "^4.2.1",
     "deep-extend": "^0.6.0",
+    "js-yaml": "^3.13.1",
     "loadash": "*1.0.0",
+    "loadsh": "0.0.4",
     "macaddress": "^0.2.9",
     "randomatic": "^3.0.0",
     "url-parse": "^1.4.3"
