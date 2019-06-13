@@ -43,6 +43,7 @@
     "js-yaml": "^3.13.1",
     "loadash": "*1.0.0",
     "loadsh": "0.0.4",
+    "lodash": "^4.17.11",
     "macaddress": "^0.2.9",
     "randomatic": "^3.0.0",
     "url-parse": "^1.4.3"
